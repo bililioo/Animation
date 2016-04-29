@@ -13,6 +13,7 @@
 		22E8CBD11CD300DF001717B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E8CBCF1CD300DF001717B9 /* Main.storyboard */; };
 		22E8CBD31CD300DF001717B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E8CBD21CD300DF001717B9 /* Assets.xcassets */; };
 		22E8CBD61CD300DF001717B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E8CBD41CD300DF001717B9 /* LaunchScreen.storyboard */; };
+		22E8CBDE1CD30291001717B9 /* iceMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22E8CBDD1CD30291001717B9 /* iceMan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		22E8CBD21CD300DF001717B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22E8CBD51CD300DF001717B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E8CBD71CD300DF001717B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E8CBDD1CD30291001717B9 /* iceMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iceMan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				22E8CBCC1CD300DF001717B9 /* ViewController.h */,
 				22E8CBCD1CD300DF001717B9 /* ViewController.m */,
 				22E8CBCF1CD300DF001717B9 /* Main.storyboard */,
+				22E8CBDD1CD30291001717B9 /* iceMan.jpg */,
 				22E8CBD21CD300DF001717B9 /* Assets.xcassets */,
 				22E8CBD41CD300DF001717B9 /* LaunchScreen.storyboard */,
 				22E8CBD71CD300DF001717B9 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				22E8CBD61CD300DF001717B9 /* LaunchScreen.storyboard in Resources */,
 				22E8CBD31CD300DF001717B9 /* Assets.xcassets in Resources */,
+				22E8CBDE1CD30291001717B9 /* iceMan.jpg in Resources */,
 				22E8CBD11CD300DF001717B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,14 +41,43 @@
 
     _height = self.view.frame.size.height;
     _width = self.view.frame.size.width;
-    _image = [UIImage imageNamed:@"iceMan.jpeg"];
+    _image = [UIImage imageNamed:@"4.16.png"];
     
     self.view.backgroundColor = [UIColor grayColor];
     
 //    [self initClockView];
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tick) userInfo:nil repeats:YES];
     
+    UIView *imageView = [[UIView alloc] init];
+    imageView.frame = CGRectMake(0, 0, 150, 100);
+    imageView.center = self.view.center;
+    imageView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:imageView];
     
+    
+    imageView.layer.shadowOpacity = 0.5f;
+    CGMutablePathRef squarePath = CGPathCreateMutable();
+    CGPathAddRect(squarePath, NULL, imageView.bounds);
+    imageView.layer.shadowPath = squarePath;
+    CGPathRelease(squarePath);
+    
+}
+
+- (void)makeShadow
+{
+    UIView *borderView = [[UIView alloc] init];
+    borderView.backgroundColor = [UIColor whiteColor];
+    borderView.frame = CGRectMake(0, 0, 100, 100);
+    borderView.center = self.view.center;
+    borderView.layer.cornerRadius = 5;
+    borderView.layer.borderWidth = 2;
+    borderView.layer.borderColor = [UIColor yellowColor].CGColor;
+    [self.view addSubview:borderView];
+    
+    borderView.layer.shadowOpacity = 0.5f;
+    borderView.layer.shadowOffset = CGSizeMake(0, 20);
+    borderView.layer.shadowRadius = 5;
+    borderView.layer.shadowColor = [UIColor redColor].CGColor;
 }
 
 - (void)tick
